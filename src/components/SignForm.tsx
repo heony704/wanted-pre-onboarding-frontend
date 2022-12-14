@@ -114,7 +114,6 @@ const Form = styled.form`
     flex-direction: column;
     max-width: 30rem;
     margin: auto;
-    padding: 1rem 1.5rem 1.5rem 1.5rem;
 
     > * + * {
         margin-top: 1rem;
