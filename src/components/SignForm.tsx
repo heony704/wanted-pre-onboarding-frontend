@@ -74,8 +74,9 @@ export default function SignForm() {
             return res.json();
         })
         .then((data) => {
-            localStorage.setItem("access_token", data.access_token);
             alert('성공적으로 회원가입되었습니다.\n다시 로그인해주세요.');
+            setEmail('');
+            setPassword('');
         })
         .catch((err) => {
             console.log(err);
