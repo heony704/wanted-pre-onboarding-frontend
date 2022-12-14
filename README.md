@@ -4,6 +4,8 @@
 
 할 일을 적어 관리할 수 있는 간단한 투두리스트 웹사이트입니다.
 
+![todolist](https://user-images.githubusercontent.com/36994104/207625348-ab2f62d5-53d1-48b9-b43e-cfd87ca9d821.gif)
+
 [배포링크](https://heony704.github.io/wanted-pre-onboarding-frontend/)에서 직접 경험해 볼 수 있습니다.
 
 ## 기능
