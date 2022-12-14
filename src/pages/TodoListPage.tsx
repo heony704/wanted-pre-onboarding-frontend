@@ -82,7 +82,7 @@ export default function TodoListPage() {
                 <button onClick={onCreateTodo}><IoArrowDown /></button>
             </TodoInputForm>
             <TodoList>
-                {todoList.map((todo, index) => (
+                {todoList.slice(0).reverse().map((todo, index) => (
                     <Todo id={todo.id} contents={todo.todo} isCompleted={todo.isCompleted} key={index} />
                 ))}
             </TodoList>
