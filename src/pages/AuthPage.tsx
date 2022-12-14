@@ -1,10 +1,12 @@
 import styled from 'styled-components';
 import Header from '../components/Header';
+import SignForm from '../components/SignForm';
 
 export default function AuthPage() {
     return (
         <Container>
             <Header />
+            <SignForm />
         </Container>
     );
 }
